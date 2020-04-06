@@ -1,0 +1,28 @@
+{
+  "name": "dis-bot",
+  "version": "1.0.0",
+  "description": "Discord bot in JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KNaiskes/dis-bot.git"
+  },
+  "keywords": [
+    "Discord",
+    "bot",
+    "JavaScript"
+  ],
+  "author": "Kiriakos Naiskes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KNaiskes/dis-bot/issues"
+  },
+  "homepage": "https://github.com/KNaiskes/dis-bot#readme",
+  "dependencies": {
+    "discord.js": "^12.1.1",
+    "dotenv": "^8.2.0"
+  }
+}
