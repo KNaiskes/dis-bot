@@ -1,11 +1,13 @@
 // include all available  commands
 const ping = require('./ping');
+const hello = require('./hello');
 
 const clientId = process.env.CLIENT_ID;
 const channelId = process.env.CHANNEL_ID
 
 const commands = {
-    ping
+    ping,
+    hello
 };
 
 module.exports = async (msg) => {
