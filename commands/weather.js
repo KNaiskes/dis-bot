@@ -1,5 +1,5 @@
 const getWeather = async () => {
-    // by default it returs Athens weather
+    // by default it returns Athens weather
     try {
 	const fetch = require('node-fetch');
 	const fetchWeather = await fetch('https://www.metaweather.com/api/location/946738/');
