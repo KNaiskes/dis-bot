@@ -23,6 +23,7 @@
   "homepage": "https://github.com/KNaiskes/dis-bot#readme",
   "dependencies": {
     "discord.js": "^12.1.1",
-    "dotenv": "^8.2.0"
+    "dotenv": "^8.2.0",
+    "node-fetch": "^2.6.0"
   }
 }
