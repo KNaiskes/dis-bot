@@ -2,6 +2,7 @@
 const ping = require('./ping');
 const hello = require('./hello');
 const weather = require('./weather');
+const availableCommands = require('./commands');
 
 const clientId = process.env.CLIENT_ID;
 const channelId = process.env.CHANNEL_ID
@@ -10,6 +11,7 @@ const commands = {
     ping,
     hello,
     weather,
+    'commands': availableCommands
 };
 
 module.exports = async (msg) => {
